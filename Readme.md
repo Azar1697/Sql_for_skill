@@ -94,14 +94,13 @@
 ## 4. Структура проекта
 
 project_root/
-
 │
-├── vehicles_database/       
-# База транспортных средств
-│   ├── schema.sql           
-# Схема БД
-│   └── vehicles_database.sql 
-# Заполнение БД
+├── vehicles_database/       # База транспортных средств
+
+│   ├── schema.sql           # Схема БД
+
+│   └── vehicles_database.sql # Заполнение БД
+
 │   └── queries.sql           # Примеры запросов
 │
 ├── races_database/           # База гонок
@@ -110,11 +109,13 @@ project_root/
 │   └── queries.sql           
 │
 ├── hotels_database/          # База отелей
+
 │   ├── schema.sql            
 │   └── hotels_database.sql    
 │   └── queries.sql           
 │
 ├── org_structure/            # Оргструктура
+
 │   ├── schema.sql            
 │   └── hotels_database.sql   
 │   └── queries.sql           
