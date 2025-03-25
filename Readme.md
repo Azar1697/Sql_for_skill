@@ -93,34 +93,30 @@
 
 ## 4. Структура проекта
 
-project_root/
+```
+.
+├── 1.skillfactory_vehicles/
+│   ├── queries.sql #запросы для решения задач
+│   ├── schema.md   # схема БД
+│   └── skillfactory_vehicles.sql #Заполнение БД
 │
-├── vehicles_database/       # База транспортных средств
-
-│   ├── schema.sql           # Схема БД
-
-│   └── vehicles_database.sql # Заполнение БД
-
-│   └── queries.sql           # Примеры запросов
+├── 2.skillfactory_car_drive/
+│   ├── car_drive.sql     #Заполнение БД
+│   ├── queries.sql
+│   └── schema.md
 │
-├── races_database/           # База гонок
-│   ├── schema.sql            
-│   └── races_database.sql 
-│   └── queries.sql           
+├── 3.hotel_booking/
+│   ├── hotel_booking.sql    #Заполнение БД
+│   ├── queries.sql
+│   └── schema.md
 │
-├── hotels_database/          # База отелей
-
-│   ├── schema.sql            
-│   └── hotels_database.sql    
-│   └── queries.sql           
-│
-├── org_structure/            # Оргструктура
-
-│   ├── schema.sql            
-│   └── hotels_database.sql   
-│   └── queries.sql           
-│
-└── README.md                 # Этот файл
+└── 4.org_structure.sql/
+│   ├── org_structure.sql    #Заполнение БД
+│   ├── queries.sql
+│   ├── schema.md
+└── .gitignore
+└── Readme.md
+```
 ## 5. Инструкция по запуску
 Требования
 MySQL Server 8.0+
